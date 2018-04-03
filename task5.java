@@ -26,9 +26,9 @@ public class task5 {
 		}
 
 		if (isPalindrome) {
-			System.out.println("Палиндром");
+			System.out.println("Palindrome");
 		} else {
-			System.out.println("Не палиндром");
+			System.out.println("Not a palindrome");
 		}
 
 	}

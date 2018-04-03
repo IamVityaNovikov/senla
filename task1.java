@@ -7,7 +7,7 @@ public class task1 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		int n = 41;
+		int n = 0;
 		n = input.nextInt();
 		boolean[] m = new boolean[n + 1];
 		Arrays.fill(m, true);

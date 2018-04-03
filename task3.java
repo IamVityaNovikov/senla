@@ -41,9 +41,9 @@ public class task3 {
 		float v4 = (x2 - x1) * (y4 - y1) - (x4 - x1) * (y2 - y1);
 
 		if ((v1 * v2 < 0) || (v3 * v4 < 0)) {
-			System.out.println("Пересекаются");
+			System.out.println("Cross");
 		} else {
-			System.out.println("Не пересекаются");
+			System.out.println("Do not cross");
 		}
 
 		input.close();

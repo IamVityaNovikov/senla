@@ -24,18 +24,18 @@ public class task4 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int n1 = 0;
-		System.out.println("Первое число: ");
+		System.out.println("First number: ");
 		n1 = input.nextInt();
 		int n2 = 0;
-		System.out.println("Второе число: ");
+		System.out.println("Second number: ");
 		n2 = input.nextInt();
 		input.close();
 
 		int nod = NOD(n1, n2);
 		int nok = NOK(n1, n2);
 
-		System.out.println("НОД: " + nod);
-		System.out.print("НОК: " + nok);
+		System.out.println("GCD (NOD): " + nod);
+		System.out.println("LCM (NOK): " + nok);
 	}
 
 }
